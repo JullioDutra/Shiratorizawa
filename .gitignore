@@ -1,0 +1,77 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribuições e instaladores
+*.egg
+*.egg-info/
+dist/
+build/
+eggs/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.manifest
+*.spec
+
+# Virtual environment
+venv/
+env/
+ENV/
+.venv/
+.ENV/
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Django stuff:
+*.log
+*.pot
+*.pyc
+db.sqlite3
+db.sqlite3-journal
+media/
+staticfiles/
+local_settings.py
+
+# VS Code
+.vscode/
+
+# Pycharm
+.idea/
+
+# macOS
+.DS_Store
+
+# Node/npm stuff (caso use no front-end)
+node_modules/
+*.lock
+
+# Arquivos do sistema
+Thumbs.db
+ehthumbs.db
+
+# Arquivos temporários
+*.swp
+*.swo
+*.bak
+*.tmp
+
+# Arquivos de configuração do sistema operacional
+Icon?
+Desktop.ini
+
+# Arquivos de ambiente
+.env
+.env.*
+
+# Arquivos de migração temporários
+*/migrations/__pycache__/
+*/migrations/*.pyc
+*/migrations/*.pyo
+*/migrations/*.pyd
